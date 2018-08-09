@@ -16,3 +16,6 @@ CREATE TABLE bh_session (
 	expires_in SMALLINT UNSIGNED,
 	created_time TIMESTAMP
 );
+
+INSERT INTO bh_session(id, username, password, client_id, client_secret)
+VALUES (1, '*', '*', '*', '*');
